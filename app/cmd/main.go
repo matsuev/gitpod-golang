@@ -1,5 +1,8 @@
 package main
 
+import "fmt"
+
 func main() {
-	println("Hello")
+	A := 124
+	fmt.Printf("%#v\n", A)
 }
